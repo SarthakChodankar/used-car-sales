@@ -1,0 +1,10 @@
+.photos { margin-top: 1.5rem; }
+.photos h2 { font-size: 1.1rem; margin: 0 0 .5rem; }
+.note { color: #5b6372; font-size: .88rem; margin: .4rem 0; }
+.image-list {
+  list-style: none; padding: 0; margin: 1rem 0 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: .9rem;
+}
+.image-list li { display: flex; flex-direction: column; gap: .4rem; }
+.image-list img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: #eef0f3; }
+.main-tag { font-size: .85rem; color: #1d6b34; }

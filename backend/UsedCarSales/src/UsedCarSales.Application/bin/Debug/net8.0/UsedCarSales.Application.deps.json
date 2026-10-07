@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UsedCarSales.Application/1.0.0": {
+        "dependencies": {
+          "UsedCarSales.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UsedCarSales.Application.dll": {}
+        }
+      },
+      "UsedCarSales.Domain/1.0.0": {
+        "runtime": {
+          "UsedCarSales.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UsedCarSales.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UsedCarSales.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

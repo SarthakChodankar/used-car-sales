@@ -1,0 +1,40 @@
+<a class="back" routerLink="/customers">Back to customers</a>
+<h1 class="page-title">{{ isEdit ? 'Edit customer' : 'Add customer' }}</h1>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+<form class="panel" [formGroup]="form" (ngSubmit)="save()">
+  <div class="form-grid">
+    <div class="field">
+      <label for="name">Full name</label>
+      <input id="name" formControlName="fullName" />
+      @if (invalid('fullName')) { <span class="hint">Enter the customer's full name.</span> }
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" type="email" formControlName="email" />
+      @if (invalid('email')) { <span class="hint">Enter a valid email address.</span> }
+    </div>
+
+    <div class="field">
+      <label for="phone">Phone</label>
+      <input id="phone" formControlName="phone" />
+      @if (invalid('phone')) { <span class="hint">Use 7 to 20 characters: digits, +, - or spaces.</span> }
+    </div>
+
+    <div class="field wide">
+      <label for="address">Address</label>
+      <textarea id="address" rows="2" formControlName="address"></textarea>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary" [disabled]="saving()">
+      {{ saving() ? 'Saving...' : 'Save customer' }}
+    </button>
+    <a class="btn" routerLink="/customers">Cancel</a>
+  </div>
+</form>

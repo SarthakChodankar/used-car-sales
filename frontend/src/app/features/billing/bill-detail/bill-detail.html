@@ -1,0 +1,44 @@
+<div class="toolbar no-print">
+  <a class="back" routerLink="/bills">Back to bills</a>
+  <button type="button" class="btn btn-primary" (click)="print()">Print invoice</button>
+</div>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (bill(); as b) {
+  <article class="panel invoice">
+    <header class="head">
+      <div>
+        <h1>Invoice</h1>
+        <p>{{ b.invoiceNumber }}</p>
+      </div>
+      <p>Date: {{ b.billDate | date: 'dd MMM yyyy' }}</p>
+    </header>
+
+    <section class="parties">
+      <div>
+        <h2>Billed to</h2>
+        <p>{{ b.customer.fullName }}</p>
+        <p>{{ b.customer.email }}</p>
+        <p>{{ b.customer.phone }}</p>
+        @if (b.customer.address) { <p>{{ b.customer.address }}</p> }
+      </div>
+      <div>
+        <h2>Vehicle</h2>
+        <p>{{ b.car.make }} {{ b.car.model }} ({{ b.car.manufactureYear }})</p>
+        <p>VIN: {{ b.car.vin }}</p>
+        <p>Payment: {{ b.paymentMethod }}</p>
+      </div>
+    </section>
+
+    <table class="table">
+      <tbody>
+        <tr><td>Vehicle price</td><td class="num">{{ b.salePrice | currency: 'INR' : 'symbol' : '1.2-2' }}</td></tr>
+        <tr><td>Tax ({{ b.taxPercent }}%)</td><td class="num">{{ b.taxAmount | currency: 'INR' : 'symbol' : '1.2-2' }}</td></tr>
+        <tr class="total"><td>Total</td><td class="num">{{ b.totalAmount | currency: 'INR' : 'symbol' : '1.2-2' }}</td></tr>
+      </tbody>
+    </table>
+  </article>
+}

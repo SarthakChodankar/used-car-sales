@@ -1,0 +1,43 @@
+.page-header h1 { margin: 0 0 1rem; font-size: 1.6rem; }
+
+.filters {
+  display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.25rem;
+  input[type='search'] { flex: 1 1 260px; }
+  input, select, button {
+    padding: .55rem .75rem; font: inherit;
+    border: 1px solid #c9ced6; border-radius: 6px; background: #fff;
+  }
+  button { background: #1f3a5f; color: #fff; border-color: #1f3a5f; cursor: pointer; }
+}
+
+.message { padding: 1rem 0; color: #4a5260; }
+.error { color: #a12626; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+
+.card {
+      display: block; color: inherit; text-decoration: none;
+  background: #fff; border: 1px solid #dde1e7; border-radius: 8px; overflow: hidden;
+  .photo {
+    aspect-ratio: 4 / 3; background: #eef0f3; display: grid; place-items: center;
+    img { width: 100%; height: 100%; object-fit: cover; }
+    .no-photo { color: #7a8190; font-size: .9rem; }
+  }
+  .body { padding: .85rem 1rem 1rem; }
+  h2 { margin: 0 0 .25rem; font-size: 1.05rem; }
+  .meta { margin: 0 0 .5rem; color: #5b6372; font-size: .88rem; }
+  .price { margin: 0 0 .6rem; font-weight: 600; font-size: 1.1rem; }
+}
+
+.badge {
+  display: inline-block; padding: .15rem .6rem; border-radius: 999px; font-size: .8rem;
+  &.available { background: #dff3e4; color: #1d6b34; }
+  &.reserved { background: #fdf0d3; color: #8a5a00; }
+  &.sold { background: #e6e8ec; color: #4a5260; }
+}
+
+.pager {
+  display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1.5rem;
+  button { padding: .45rem .9rem; font: inherit; border: 1px solid #c9ced6; border-radius: 6px; background: #fff; cursor: pointer; }
+  button:disabled { opacity: .45; cursor: not-allowed; }
+}

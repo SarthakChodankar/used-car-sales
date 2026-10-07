@@ -1,0 +1,47 @@
+<header class="toolbar">
+  <h1 class="page-title">Customers</h1>
+  <a class="btn btn-primary" routerLink="/customers/new">Add customer</a>
+</header>
+
+<form class="toolbar" (ngSubmit)="applySearch()">
+  <input type="search" name="search" [(ngModel)]="search" class="search"
+         placeholder="Search by name, email or phone" aria-label="Search customers" />
+  <button type="submit" class="btn">Search</button>
+</form>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (loading()) {
+  <p class="message">Loading customers...</p>
+} @else if (result(); as data) {
+  @if (data.items.length === 0) {
+    <p class="message">No customers found. Add your first customer to get started.</p>
+  } @else {
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr><th>Name</th><th>Email</th><th>Phone</th><th>Address</th><th></th></tr>
+        </thead>
+        <tbody>
+          @for (c of data.items; track c.customerId) {
+            <tr>
+              <td>{{ c.fullName }}</td>
+              <td>{{ c.email }}</td>
+              <td>{{ c.phone }}</td>
+              <td>{{ c.address || '-' }}</td>
+              <td class="row-actions">
+                <a class="btn" [routerLink]="['/customers', c.customerId, 'edit']">Edit</a>
+                <button type="button" class="btn btn-danger" (click)="remove(c)">Delete</button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <app-pager [pageNumber]="data.pageNumber" [totalPages]="data.totalPages"
+               [totalCount]="data.totalCount" (pageChange)="goTo($event)" />
+  }
+}

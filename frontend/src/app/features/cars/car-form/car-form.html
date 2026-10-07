@@ -1,0 +1,104 @@
+<a class="back" routerLink="/cars">Back to car stock</a>
+<h1 class="page-title">{{ isEdit ? 'Edit car' : 'Add car' }}</h1>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+<form class="panel" [formGroup]="form" (ngSubmit)="save()">
+  <div class="form-grid">
+    <div class="field">
+      <label for="vin">VIN</label>
+      <input id="vin" formControlName="vin" maxlength="17" />
+      @if (invalid('vin')) { <span class="hint">VIN must be 11 to 17 characters.</span> }
+    </div>
+
+    <div class="field">
+      <label for="make">Make</label>
+      <input id="make" formControlName="make" />
+      @if (invalid('make')) { <span class="hint">Enter the make, for example Maruti Suzuki.</span> }
+    </div>
+
+    <div class="field">
+      <label for="model">Model</label>
+      <input id="model" formControlName="model" />
+      @if (invalid('model')) { <span class="hint">Enter the model, for example Swift VXI.</span> }
+    </div>
+
+    <div class="field">
+      <label for="year">Manufacture year</label>
+      <input id="year" type="number" formControlName="manufactureYear" />
+      @if (invalid('manufactureYear')) { <span class="hint">Year must be between 1980 and 2100.</span> }
+    </div>
+
+    <div class="field">
+      <label for="mileage">Mileage (km)</label>
+      <input id="mileage" type="number" formControlName="mileage" />
+      @if (invalid('mileage')) { <span class="hint">Mileage cannot be negative.</span> }
+    </div>
+
+    <div class="field">
+      <label for="color">Colour</label>
+      <input id="color" formControlName="color" />
+    </div>
+
+    <div class="field">
+      <label for="fuel">Fuel type</label>
+      <select id="fuel" formControlName="fuelType">
+        @for (f of fuelTypes; track f) { <option [value]="f">{{ f }}</option> }
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="trans">Transmission</label>
+      <select id="trans" formControlName="transmission">
+        @for (t of transmissions; track t) { <option [value]="t">{{ t }}</option> }
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="price">Price (INR)</label>
+      <input id="price" type="number" formControlName="price" />
+      @if (invalid('price')) { <span class="hint">Price must be greater than 0.</span> }
+    </div>
+
+    <div class="field wide">
+      <label for="desc">Description</label>
+      <textarea id="desc" rows="3" formControlName="description"></textarea>
+    </div>
+  </div>
+
+  <section class="photos">
+    <h2>Photos</h2>
+    <input type="file" accept="image/jpeg,image/png,image/webp" multiple (change)="onFiles($event)"
+           [disabled]="form.disabled" />
+    <p class="note">JPG, PNG or WEBP, up to 5 MB each. The first photo becomes the main photo.</p>
+
+    @if (!isEdit && pendingFiles().length > 0) {
+      <p class="note">{{ pendingFiles().length }} photo(s) will be uploaded when you save.</p>
+    }
+
+    @if (images().length > 0) {
+      <ul class="image-list">
+        @for (img of images(); track img.imageId) {
+          <li>
+            <img [src]="fullUrl(img.url)" alt="Car photo" />
+            @if (img.isPrimary) {
+              <span class="main-tag">Main photo</span>
+            } @else {
+              <button type="button" class="btn" (click)="makePrimary(img)">Make main</button>
+            }
+            <button type="button" class="btn btn-danger" (click)="removeImage(img)">Remove</button>
+          </li>
+        }
+      </ul>
+    }
+  </section>
+
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary" [disabled]="saving() || form.disabled">
+      {{ saving() ? 'Saving...' : 'Save car' }}
+    </button>
+    <a class="btn" [routerLink]="isEdit ? ['/cars', carId] : ['/cars']">Cancel</a>
+  </div>
+</form>

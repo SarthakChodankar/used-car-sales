@@ -1,0 +1,45 @@
+<h1 class="page-title">Bills</h1>
+
+<form class="toolbar" (ngSubmit)="applySearch()">
+  <input type="search" name="search" [(ngModel)]="search" class="search"
+         placeholder="Search by invoice number or customer" aria-label="Search bills" />
+  <button type="submit" class="btn">Search</button>
+</form>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (loading()) {
+  <p class="message">Loading bills...</p>
+} @else if (result(); as data) {
+  @if (data.items.length === 0) {
+    <p class="message">No bills yet. Bills appear here after you complete a sale.</p>
+  } @else {
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Invoice</th><th>Date</th><th>Customer</th><th>Car</th>
+            <th class="num">Total</th><th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (b of data.items; track b.billId) {
+            <tr>
+              <td>{{ b.invoiceNumber }}</td>
+              <td>{{ b.billDate | date: 'dd MMM yyyy' }}</td>
+              <td>{{ b.customer.fullName }}</td>
+              <td>{{ b.car.make }} {{ b.car.model }}</td>
+              <td class="num">{{ b.totalAmount | currency: 'INR' : 'symbol' : '1.2-2' }}</td>
+              <td><a class="btn" [routerLink]="['/bills', b.billId]">View</a></td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <app-pager [pageNumber]="data.pageNumber" [totalPages]="data.totalPages"
+               [totalCount]="data.totalCount" (pageChange)="goTo($event)" />
+  }
+}

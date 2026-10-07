@@ -1,0 +1,11 @@
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\bin\Debug\net8.0\UsedCarSales.Domain.deps.json
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\bin\Debug\net8.0\UsedCarSales.Domain.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\bin\Debug\net8.0\UsedCarSales.Domain.pdb
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.AssemblyInfoInputs.cache
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.AssemblyInfo.cs
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.csproj.CoreCompileInputs.cache
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\refint\UsedCarSales.Domain.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\UsedCarSales.Domain.pdb
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Domain\obj\Debug\net8.0\ref\UsedCarSales.Domain.dll

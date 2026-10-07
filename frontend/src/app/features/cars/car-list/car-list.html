@@ -1,0 +1,59 @@
+<header class="page-header toolbar">
+  <h1>Car stock</h1>
+  <a class="btn btn-primary" routerLink="/cars/new">Add car</a>
+</header>
+
+<form class="filters" (ngSubmit)="applyFilters()">
+  <input
+    type="search"
+    name="search"
+    [(ngModel)]="search"
+    placeholder="Search by make, model or VIN"
+    aria-label="Search cars"
+  />
+  <select name="status" [(ngModel)]="status" (change)="applyFilters()" aria-label="Filter by status">
+    <option value="">All statuses</option>
+    <option value="Available">Available</option>
+    <option value="Reserved">Reserved</option>
+    <option value="Sold">Sold</option>
+  </select>
+  <button type="submit">Search</button>
+</form>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (loading()) {
+  <p class="message">Loading cars...</p>
+} @else if (result(); as data) {
+  @if (data.items.length === 0) {
+    <p class="message">No cars match your search. Try a different make, model or status.</p>
+  } @else {
+    <div class="grid">
+      @for (car of data.items; track car.carId) {
+        <a class="card" [routerLink]="['/cars', car.carId]">
+          <div class="photo">
+            @if (imageUrl(car); as url) {
+              <img [src]="url" [alt]="car.make + ' ' + car.model" loading="lazy" />
+            } @else {
+              <span class="no-photo">No photo</span>
+            }
+          </div>
+          <div class="body">
+            <h2>{{ car.make }} {{ car.model }}</h2>
+            <p class="meta">{{ car.manufactureYear }} · {{ car.mileage }} km · {{ car.fuelType }}</p>
+            <p class="price">{{ car.price | currency: 'INR' : 'symbol' : '1.0-0' }}</p>
+            <span class="badge" [class]="'badge ' + car.status.toLowerCase()">{{ car.status }}</span>
+          </div>
+        </a>
+      }
+    </div>
+
+    <nav class="pager" aria-label="Pagination">
+      <button type="button" (click)="goTo(pageNumber - 1)" [disabled]="pageNumber <= 1">Previous</button>
+      <span>Page {{ data.pageNumber }} of {{ data.totalPages }} ({{ data.totalCount }} cars)</span>
+      <button type="button" (click)="goTo(pageNumber + 1)" [disabled]="pageNumber >= data.totalPages">Next</button>
+    </nav>
+  }
+}

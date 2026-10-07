@@ -1,0 +1,837 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UsedCarSales\\backend\\UsedCarSales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\controllers\\carimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\controllers\\carimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\storage\\localfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\storage\\localfilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\usedcarsales.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\usedcarsales.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\services\\carimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\services\\carimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\icarimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\icarimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\ifilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\ifilestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\usedcarsales.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\usedcarsales.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\services\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\mappings\\billmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\mappings\\billmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\ibillingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\billing\\billqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\billing\\billqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\billing\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\billing\\billdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\billing\\salerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\billing\\salerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\constants\\billingrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\constants\\billingrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\entities\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\mappings\\customermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\mappings\\customermappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\customers\\customerqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\customers\\customerqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\customers\\customersaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\customers\\customersaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\customers\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\customers\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254EE206-A41B-4A5E-8FA0-2085DBDE910B}|src\\UsedCarSales.Api\\UsedCarSales.Api.csproj|solutionrelative:src\\usedcarsales.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\mappings\\carmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\mappings\\carmappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\usedcarsales.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\usedcarsales.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A150EC53-E763-4CBB-87EF-C694E8EA0FE7}|src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj|solutionrelative:src\\usedcarsales.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\entities\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\entities\\carimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\cars\\carqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\cars\\carqueryparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\cars\\carsaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\cars\\carsaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\cars\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\cars\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\dtos\\cars\\carimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\dtos\\cars\\carimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.application\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B0DB026-21D7-44F4-8D6F-7DBFA4915BD0}|src\\UsedCarSales.Application\\UsedCarSales.Application.csproj|solutionrelative:src\\usedcarsales.application\\common\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\constants\\carstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\constants\\carstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\usedcarsales.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\usedcarsales.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\exceptions\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\exceptions\\businessruleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|d:\\usedcarsales\\backend\\usedcarsales\\src\\usedcarsales.domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EECD7C-7DA8-409F-8F22-3C630122046A}|src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj|solutionrelative:src\\usedcarsales.domain\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocalFileStorage.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Storage\\LocalFileStorage.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\Storage\\LocalFileStorage.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Storage\\LocalFileStorage.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\Storage\\LocalFileStorage.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T03:12:19.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarImageService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CarImageService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Services\\CarImageService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CarImageService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Services\\CarImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T03:10:09.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICarImageService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarImageService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\ICarImageService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarImageService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\ICarImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T03:09:03.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\Repositories\\CarRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\Repositories\\CarRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:10:06.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Program.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Program.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:41:15.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\appsettings.json",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\appsettings.json",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-06T14:38:55.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarImagesController.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CarImagesController.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Controllers\\CarImagesController.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CarImagesController.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Controllers\\CarImagesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T03:13:17.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFileStorage.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IFileStorage.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\IFileStorage.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IFileStorage.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\IFileStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T03:08:35.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:40:26.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsedCarSales.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\UsedCarSales.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T10:13:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BillingService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\BillingService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Services\\BillingService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\BillingService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Services\\BillingService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:51:38.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:00:17.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\BillRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\Repositories\\BillRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\BillRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\Repositories\\BillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:52:28.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsedCarSales.Api.csproj",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\UsedCarSales.Api.csproj",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\UsedCarSales.Api.csproj",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\UsedCarSales.Api.csproj",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\UsedCarSales.Api.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T10:13:25.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Controllers\\SalesController.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Controllers\\SalesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:53:05.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Controllers\\BillsController.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Controllers\\BillsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:53:36.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BillMappings.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\BillMappings.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Mappings\\BillMappings.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\BillMappings.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Mappings\\BillMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:51:08.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBillingService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IBillingService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\IBillingService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IBillingService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\IBillingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:50:15.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\IBillRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\IBillRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\IBillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:49:59.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BillQueryParams.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\BillQueryParams.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Billing\\BillQueryParams.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\BillQueryParams.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Billing\\BillQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:49:30.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BillDto.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\BillDto.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Billing\\BillDto.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\BillDto.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Billing\\BillDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA/wBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:49:00.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SaleRequest.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\SaleRequest.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Billing\\SaleRequest.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Billing\\SaleRequest.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Billing\\SaleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:48:22.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BillingRules.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Constants\\BillingRules.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Constants\\BillingRules.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Constants\\BillingRules.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Constants\\BillingRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:47:21.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\Bill.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Entities\\Bill.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\Bill.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Entities\\Bill.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:46:28.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:37:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:37:09.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Services\\CustomerService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CustomerService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Services\\CustomerService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:35:55.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerMappings.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\CustomerMappings.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Mappings\\CustomerMappings.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\CustomerMappings.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Mappings\\CustomerMappings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:35:18.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:34:51.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:34:27.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CustomerQueryParams.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerQueryParams.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerQueryParams.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerQueryParams.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:34:00.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CustomerSaveRequest.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerSaveRequest.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerSaveRequest.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerSaveRequest.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerSaveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:33:38.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerDto.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerDto.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Customers\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:33:11.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Controllers\\CarsController.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:23:04.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:20:53.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Services\\CarService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Services\\CarService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Services\\CarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:16:38.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CarMappings.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\CarMappings.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Mappings\\CarMappings.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Mappings\\CarMappings.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Mappings\\CarMappings.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:15:56.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:35:38.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CarImage.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\CarImage.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Entities\\CarImage.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\CarImage.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Entities\\CarImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:06:09.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Entities\\Car.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Entities\\Car.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Entities\\Car.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAzwCcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:04:12.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsedCarSales.Application.csproj",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\UsedCarSales.Application.csproj",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\UsedCarSales.Application.csproj",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\UsedCarSales.Application.csproj",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\UsedCarSales.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T10:01:40.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarService.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Interfaces\\ICarService.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Interfaces\\ICarService.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Interfaces\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T15:00:41.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CarQueryParams.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarQueryParams.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarQueryParams.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarQueryParams.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarQueryParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:55:44.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CarSaveRequest.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarSaveRequest.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarSaveRequest.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarSaveRequest.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarSaveRequest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:55:10.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CarDto.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarDto.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarDto.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarDto.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:54:35.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CarImageDto.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarImageDto.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarImageDto.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\DTOs\\Cars\\CarImageDto.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\DTOs\\Cars\\CarImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:54:05.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Common\\PagedResult.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Application\\Common\\PagedResult.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Application\\Common\\PagedResult.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Application\\Common\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:53:33.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CarStatus.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Constants\\CarStatus.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Constants\\CarStatus.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Constants\\CarStatus.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Constants\\CarStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:48:59.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BusinessRuleException.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Exceptions\\BusinessRuleException.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Exceptions\\BusinessRuleException.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Exceptions\\BusinessRuleException.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Exceptions\\BusinessRuleException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:48:18.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:47:50.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UsedCarSales.Domain.csproj",
+              "DocumentMoniker": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj",
+              "ToolTip": "D:\\UsedCarSales\\backend\\UsedCarSales\\src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj",
+              "RelativeToolTip": "src\\UsedCarSales.Domain\\UsedCarSales.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-06T14:46:34.104Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

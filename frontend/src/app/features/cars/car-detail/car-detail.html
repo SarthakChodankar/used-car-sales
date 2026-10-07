@@ -1,0 +1,63 @@
+<a class="back" routerLink="/cars">Back to car stock</a>
+
+@if (loading()) {
+  <p class="message">Loading car...</p>
+}
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (car(); as c) {
+  <div class="layout">
+    <section class="gallery" aria-label="Car photos">
+      <div class="main-photo">
+        @if (selectedImage(); as img) {
+          <img [src]="fullUrl(img.url)" [alt]="c.make + ' ' + c.model" />
+        } @else {
+          <span class="no-photo">No photos yet</span>
+        }
+      </div>
+
+      @if (c.images.length > 1) {
+        <div class="thumbs">
+          @for (img of c.images; track img.imageId; let i = $index) {
+            <button type="button" [class.active]="i === selectedIndex()" (click)="select(i)"
+                    [attr.aria-label]="'Show photo ' + (i + 1)">
+              <img [src]="fullUrl(img.url)" alt="" loading="lazy" />
+            </button>
+          }
+        </div>
+      }
+    </section>
+
+    <section class="info">
+      <h1>{{ c.make }} {{ c.model }}</h1>
+      <p class="price">{{ c.price | currency: 'INR' : 'symbol' : '1.0-0' }}</p>
+      <span class="badge" [class]="'badge ' + c.status.toLowerCase()">{{ c.status }}</span>
+
+      <dl>
+        <dt>Year</dt><dd>{{ c.manufactureYear }}</dd>
+        <dt>Mileage</dt><dd>{{ c.mileage | number }} km</dd>
+        <dt>Fuel</dt><dd>{{ c.fuelType }}</dd>
+        <dt>Transmission</dt><dd>{{ c.transmission }}</dd>
+        <dt>Colour</dt><dd>{{ c.color || 'Not specified' }}</dd>
+        <dt>VIN</dt><dd>{{ c.vin }}</dd>
+      </dl>
+
+      @if (c.description) {
+        <p class="description">{{ c.description }}</p>
+      }
+
+     <div class="actions">
+  @if (c.status === 'Available') {
+    <a class="btn btn-primary" routerLink="/sales/new" [queryParams]="{ carId: c.carId }">Sell this car</a>
+  }
+  @if (c.status !== 'Sold') {
+    <a class="btn" [routerLink]="['/cars', c.carId, 'edit']">Edit</a>
+    <button type="button" class="btn btn-danger" (click)="remove()">Delete car</button>
+  }
+</div>
+    </section>
+  </div>
+}

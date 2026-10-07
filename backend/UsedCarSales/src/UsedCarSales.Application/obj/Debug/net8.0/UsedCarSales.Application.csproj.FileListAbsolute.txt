@@ -1,0 +1,15 @@
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\bin\Debug\net8.0\UsedCarSales.Application.deps.json
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\bin\Debug\net8.0\UsedCarSales.Application.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\bin\Debug\net8.0\UsedCarSales.Application.pdb
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\bin\Debug\net8.0\UsedCarSales.Domain.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\bin\Debug\net8.0\UsedCarSales.Domain.pdb
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.csproj.AssemblyReference.cache
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.AssemblyInfoInputs.cache
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.AssemblyInfo.cs
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.csproj.CoreCompileInputs.cache
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarS.43F2EFB8.Up2Date
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\refint\UsedCarSales.Application.dll
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\UsedCarSales.Application.pdb
+D:\UsedCarSales\backend\UsedCarSales\src\UsedCarSales.Application\obj\Debug\net8.0\ref\UsedCarSales.Application.dll

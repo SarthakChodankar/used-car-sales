@@ -1,0 +1,16 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+
+# Angular
+node_modules/
+.angular/
+dist/
+
+# Uploaded photos (created at runtime)
+backend/UsedCarSales/src/UsedCarSales.Api/wwwroot/uploads/
+
+# OS
+Thumbs.db

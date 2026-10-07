@@ -1,0 +1,62 @@
+<h1 class="page-title">New sale</h1>
+
+@if (error()) {
+  <p class="message error" role="alert">{{ error() }}</p>
+}
+
+@if (cars().length === 0) {
+  <p class="message">There are no available cars to sell. Add a car first.</p>
+}
+
+<form class="panel" [formGroup]="form" (ngSubmit)="save()">
+  <div class="form-grid">
+    <div class="field">
+      <label for="car">Car</label>
+      <select id="car" formControlName="carId">
+        <option [ngValue]="0" disabled>Choose a car</option>
+        @for (c of cars(); track c.carId) {
+          <option [ngValue]="c.carId">{{ c.make }} {{ c.model }} ({{ c.manufactureYear }})</option>
+        }
+      </select>
+      @if (invalid('carId')) { <span class="hint">Choose the car being sold.</span> }
+    </div>
+
+    <div class="field">
+      <label for="customer">Customer</label>
+      <select id="customer" formControlName="customerId">
+        <option [ngValue]="0" disabled>Choose a customer</option>
+        @for (c of customers(); track c.customerId) {
+          <option [ngValue]="c.customerId">{{ c.fullName }} ({{ c.phone }})</option>
+        }
+      </select>
+      @if (invalid('customerId')) { <span class="hint">Choose the buyer.</span> }
+      <a class="link" routerLink="/customers/new">Customer not listed? Add a new customer</a>
+    </div>
+
+    <div class="field">
+      <label for="price">Sale price (INR)</label>
+      <input id="price" type="number" formControlName="salePrice" />
+      @if (invalid('salePrice')) { <span class="hint">Price must be greater than 0.</span> }
+    </div>
+
+    <div class="field">
+      <label for="payment">Payment method</label>
+      <select id="payment" formControlName="paymentMethod">
+        @for (m of paymentMethods; track m) { <option [value]="m">{{ m }}</option> }
+      </select>
+    </div>
+  </div>
+
+  <dl class="summary">
+    <dt>Sale price</dt><dd>{{ form.controls.salePrice.value | currency: 'INR' : 'symbol' : '1.2-2' }}</dd>
+    <dt>Tax ({{ taxPercent }}%)</dt><dd>{{ tax() | currency: 'INR' : 'symbol' : '1.2-2' }}</dd>
+    <dt class="total">Total</dt><dd class="total">{{ total() | currency: 'INR' : 'symbol' : '1.2-2' }}</dd>
+  </dl>
+
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary" [disabled]="saving()">
+      {{ saving() ? 'Creating bill...' : 'Complete sale and create bill' }}
+    </button>
+    <a class="btn" routerLink="/cars">Cancel</a>
+  </div>
+</form>
